@@ -17,7 +17,6 @@ import { projects } from "@/data";
 import { ProjectService } from "@/services";
 import { IParams, Project } from "@/types";
 import { getImageUrl } from "@/utils";
-import Image from "next/image";
 
 export const getStaticPaths = async () => {
   const paths = projects.map((project) => {

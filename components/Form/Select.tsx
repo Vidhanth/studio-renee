@@ -1,4 +1,3 @@
-import clsx from 'clsx';
 import { ComponentProps,useEffect, useRef } from 'react';
 
 type SelectProps = ComponentProps<'select'> & {

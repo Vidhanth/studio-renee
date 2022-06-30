@@ -4,7 +4,6 @@ import React from "react";
 import { FadeInWhenVisible } from "@/transitions";
 import { Project } from "@/types";
 import { getImageUrl } from "@/utils";
-import Image from "next/image";
 
 type WorkSectionProps = {
   projects: Project[];

@@ -5,7 +5,6 @@ import { DefaultLayout } from "@/components/Layout";
 import { DesignerService } from "@/services";
 import { FadeInWhenVisible } from "@/transitions";
 import { Designer } from "@/types";
-import Image from "next/image";
 
 type DesignerCardProps = {
   designer: Designer;

@@ -4,7 +4,6 @@ import { FadeInWhenVisible } from "@/transitions";
 import { Project } from "@/types";
 import { getImageUrl } from "@/utils";
 import { NextPage } from "next";
-import Image from "next/image";
 import Link from "next/link";
 
 export const getStaticProps = async () => {

@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 
 import { Button } from "@/components/Elements/Button";
-import { Field, Input, Select, Textarea } from "@/components/Form";
+import { Field, Input, Textarea } from "@/components/Form";
 import { Head } from "@/components/Head";
 import { DefaultLayout } from "@/components/Layout";
 

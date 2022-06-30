@@ -4,7 +4,6 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { XIcon } from "@heroicons/react/outline";
-import NextImage from "next/image";
 import * as React from "react";
 import { Keyboard, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";

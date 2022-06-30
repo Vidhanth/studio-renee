@@ -10,7 +10,6 @@ import "swiper/css/pagination";
 
 import { projects } from "@/data";
 import { getImageUrl } from "@/utils";
-import Image from "next/image";
 
 export const CarouselSection = () => {
   return (
