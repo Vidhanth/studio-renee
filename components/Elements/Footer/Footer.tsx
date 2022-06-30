@@ -38,6 +38,7 @@ export const Footer = () => {
                   <a
                     href="//instagram.com/studio_renee_/"
                     target="_blank"
+                    rel="noreferrer"
                     className="block"
                   >
                     <InstagramIcon className="h-4 w-4" />
@@ -45,6 +46,7 @@ export const Footer = () => {
                   <a
                     href="//facebook.com/StudioReneee/ "
                     target="_blank"
+                    rel="noreferrer"
                     className="block"
                   >
                     <FacebookIcon className="h-4 w-4" />
@@ -52,6 +54,7 @@ export const Footer = () => {
                   <a
                     href="//linkedin.com/company/studio-renée/"
                     target="_blank"
+                    rel="noreferrer"
                     className="block"
                   >
                     <LinkedinIcon className="h-4 w-4" />
