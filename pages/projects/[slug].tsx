@@ -53,8 +53,7 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
   return (
     <DefaultLayout>
       <Head
-        title={project.title}
-        description="Best quality architecture and interior design services. Complete design solution for your space, not just wood work! Think design, think TranquilSpaces"
+        title={project.title}        
       />
 
       <main className="mx-auto my-12 max-w-5xl px-4 sm:px-6 lg:px-8">

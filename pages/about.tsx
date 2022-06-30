@@ -28,8 +28,7 @@ const About: NextPage<AboutProps> = ({ designers }) => {
   return (
     <DefaultLayout>
       <Head
-        title="About"
-        description="Best quality architecture and interior design services. Complete design solution for your space, not just wood work! Think design, think TranquilSpaces"
+        title="About"        
       />
 
       <main className="mx-auto mt-11 mb-16 max-w-5xl px-4 sm:px-6 lg:px-8">

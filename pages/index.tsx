@@ -7,7 +7,7 @@ import { DefaultLayout } from "../components/Layout";
 const Home: NextPage = () => {
   return (
     <DefaultLayout>
-      <Head description="Studio Renee Website" />
+      <Head/>
       <CarouselSection />
       <QuoteSection
         quote="Simplicity is the ultimate sophistication"

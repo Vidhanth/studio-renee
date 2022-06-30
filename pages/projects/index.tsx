@@ -1,3 +1,4 @@
+import { Head } from "@/components/Head";
 import { DefaultLayout } from "@/components/Layout";
 import { projects } from "@/data";
 import { FadeInWhenVisible } from "@/transitions";
@@ -21,6 +22,7 @@ type ProjectsProps = {
 const Projects: NextPage<ProjectsProps> = ({ projects }) => {
   return (
     <DefaultLayout>
+      <Head title="Projects" />
       <div className="grid px-5 lg:px-5 grid-cols-2 lg:grid-cols-3 gap-5 my-12 mx-auto max-w-5xl">
         {projects.map((project, index) => (
           <div key={index} className="col-span-2 md:col-span-1">

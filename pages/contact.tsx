@@ -8,10 +8,7 @@ import { DefaultLayout } from "@/components/Layout";
 const Contact: NextPage = () => {
   return (
     <DefaultLayout>
-      <Head
-        title="Contact"
-        description="Best quality architecture and interior design services. Complete design solution for your space, not just wood work! Think design, think TranquilSpaces"
-      />
+      <Head title="Contact" />
 
       <main>
         <div className="mx-auto mt-8 max-w-5xl px-4 sm:px-6 lg:mt-16 lg:px-8">
@@ -60,7 +57,9 @@ const Contact: NextPage = () => {
             </div>
 
             <div className="mt-12 flex justify-center">
-              <Button variant="neutral" type="submit">Submit</Button>
+              <Button variant="neutral" type="submit">
+                Submit
+              </Button>
             </div>
           </form>
         </div>
