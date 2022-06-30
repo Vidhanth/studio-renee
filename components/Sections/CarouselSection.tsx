@@ -8,8 +8,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { projects } from "@/data";
+import { projects, mainCarouselImages } from "@/data";
 import { getImageUrl } from "@/utils";
+import { ProjectService } from "@/services";
 
 export const CarouselSection = () => {
   return (
@@ -23,13 +24,21 @@ export const CarouselSection = () => {
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      {projects[0].images.map((img, index) => (
+      {mainCarouselImages.map((img, index) => (
         <SwiperSlide key={index}>
-          <img
-            src={getImageUrl(img)}
-            alt={projects[0].title}
-            className="md:h-screen w-full object-cover"
-          />
+          {img.project ? (
+            <img
+              src={getImageUrl(projects[img.project-1].images[img.image - 1]!!)}
+              alt={projects[0].title}
+              className="md:h-screen w-full object-cover"
+            />
+          ) : (
+            <img
+              src={img.image.toString()}
+              alt={projects[0].title}
+              className="md:h-screen w-full object-cover"
+            />
+          )}
         </SwiperSlide>
       ))}
     </Swiper>

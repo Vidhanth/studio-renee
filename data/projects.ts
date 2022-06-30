@@ -190,4 +190,70 @@ export const projects = [
     ],
     coverIndex: 0,
   },
+  {
+    id: 6,
+    title: `4BHK Residence`,
+    slug: `4bhk-residence`,
+    excerpt: '',
+    description: `Luxury, neo-classical style interiors for a 4BHK apartment in the city of Bengaluru. The design combines muted warm tones with pops of colors through furniture, accent walls and wallpapers around the house.`,
+    what: 'Apartment',
+    where: 'Bengaluru',
+    when: '2022',
+    images: [
+      {
+        path: '/img/projects/4bhk/1.jpg',
+        caption: 'Living Area',
+      },
+      {
+        path: '/img/projects/4bhk/2.jpg',
+        caption: 'Dining Area',
+      },
+      {
+        path: '/img/projects/4bhk/3.jpg',
+        caption: 'Media Room',
+      },
+      {
+        path: '/img/projects/4bhk/4.jpg',
+        caption: 'Guest Bedroom',
+      },
+      {
+        path: '/img/projects/4bhk/5.jpg',
+        caption: 'Kids Bedroom',
+      },
+    ],
+    coverIndex: 0,
+  },
+  {
+    id: 6,
+    title: `Altmar - Store Interiors`,
+    slug: `altmar-store-interiors`,
+    excerpt: '',
+    description: `A simple and functional design for a packaged-seafood retail outlet in Bengaluru.`,
+    what: 'Retail Store',
+    where: 'Bengaluru',
+    when: '2022',
+    images: [
+      {
+        path: '/img/projects/altmar/1.jpg',
+        caption: '',
+      },
+      {
+        path: '/img/projects/altmar/2.jpg',
+        caption: '',
+      },
+      {
+        path: '/img/projects/altmar/3.jpg',
+        caption: '',
+      },
+      {
+        path: '/img/projects/altmar/4.jpg',
+        caption: '',
+      },
+      {
+        path: '/img/projects/altmar/5.jpg',
+        caption: '',
+      },
+    ],
+    coverIndex: 0,
+  },
 ];

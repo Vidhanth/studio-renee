@@ -4,7 +4,7 @@ export const ProjectService = {
   query(limit: number | null) {
     if (!limit) return projects;
 
-    return projects.slice(0, limit);
+    return projects.slice(1).slice(-limit);
   },
 
   get(slug: string) {
