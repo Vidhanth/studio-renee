@@ -21,8 +21,7 @@ export const WorkItem = ({ project }: WorkItemProps) => {
       <Link href={`/projects/${project.slug}`}>
         <a className="flex-1 absolute inset-0 lg:mx-4">
           <FadeInWhenVisible className="h-full w-full">
-            <Image
-            layout="fill"
+            <img
               className="w-full h-full object-cover rounded overflow-hidden"
               src={getImageUrl(project.images[project.coverIndex])}
               alt={project.title}

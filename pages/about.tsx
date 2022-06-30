@@ -71,8 +71,7 @@ const DesignerCard = ({ designer }: DesignerCardProps) => {
     <div className="grid grid-cols-12 md:gap-12">
       <div className="col-span-12 md:col-span-4 lg:col-span-3 h-full w-full flex items-center">
         <FadeInWhenVisible className="aspect-w-1 aspect-h-1 w-full relative">
-          <Image
-            layout="fill"
+          <img
             src={designer.photo}
             alt={designer.name}
             className="object-cover rounded-full"

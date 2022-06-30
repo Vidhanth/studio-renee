@@ -26,14 +26,11 @@ export const CarouselSection = () => {
     >
       {projects[0].images.map((img, index) => (
         <SwiperSlide key={index}>
-          <div className=" h-96 md:h-screen w-full">
-            <Image
-              layout="fill"
-              src={getImageUrl(img)}
-              alt={projects[0].title}
-              className=" object-cover"
-            />
-          </div>
+          <img
+            src={getImageUrl(img)}
+            alt={projects[0].title}
+            className="md:h-screen w-full object-cover"
+          />
         </SwiperSlide>
       ))}
     </Swiper>

@@ -42,8 +42,7 @@ const ProjectItem = ({ project }: { project: Project }) => {
       <a>
         <FadeInWhenVisible>
           <div className="aspect-w-1 aspect-h-1">
-            <Image
-            layout="fill"
+            <img
               className="h-full w-full object-cover rounded"
               src={getImageUrl(project.images[project.coverIndex])}
               alt={project.title}

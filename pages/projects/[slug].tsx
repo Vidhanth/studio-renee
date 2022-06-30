@@ -94,8 +94,7 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
                   onClick={() => setShowingLightbox(true)}
                   className="aspect-w-16 aspect-h-9 relative bg-secondary hover:cursor-zoom-in"
                 >
-                  <Image
-                  layout="fill"
+                  <img
                     src={getImageUrl(image)}
                     className="h-full w-full object-contain"
                     alt={project.title}
