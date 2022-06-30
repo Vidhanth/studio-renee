@@ -1,1 +1,1 @@
-User-Agent: *Disallow:Sitemap: https://tranquilspaces.co.in/sitemap.xml
+User-Agent: *Disallow:Sitemap: https://studiorenee.co.in/sitemap.xml
