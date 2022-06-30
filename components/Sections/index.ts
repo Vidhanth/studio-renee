@@ -1,5 +1,3 @@
-export * from './BackToTopSection';
-export * from './HeroSection';
-export * from './OfferSection';
-export * from './ParallaxSection';
+export * from './CarouselSection';
+export * from './QuoteSection';
 export * from './WorkSection';

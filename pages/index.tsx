@@ -1,6 +1,4 @@
-import { WorkSection } from "@/components/Sections";
-import { CarouselSection } from "@/components/Sections/CarouselSection";
-import { QuoteSection } from "@/components/Sections/QuoteSection";
+import { WorkSection, CarouselSection, QuoteSection } from "@/components/Sections";
 import { ProjectService } from "@/services";
 import type { NextPage } from "next";
 import { Head } from "../components/Head";
@@ -15,7 +13,7 @@ const Home: NextPage = () => {
         quote="Simplicity is the ultimate sophistication"
         author="Leonardo Da Vinci"
       />
-      <WorkSection projects={ProjectService.query(3)} />
+      <WorkSection projects={ProjectService.query(3)} />      
     </DefaultLayout>
   );
 };

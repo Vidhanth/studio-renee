@@ -4,6 +4,7 @@ import { FadeInWhenVisible } from "@/transitions";
 import { Project } from "@/types";
 import { getImageUrl } from "@/utils";
 import { NextPage } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const getStaticProps = async () => {
@@ -41,7 +42,8 @@ const ProjectItem = ({ project }: { project: Project }) => {
       <a>
         <FadeInWhenVisible>
           <div className="aspect-w-1 aspect-h-1">
-            <img
+            <Image
+            layout="fill"
               className="h-full w-full object-cover rounded"
               src={getImageUrl(project.images[project.coverIndex])}
               alt={project.title}

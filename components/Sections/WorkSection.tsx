@@ -4,6 +4,7 @@ import React from "react";
 import { FadeInWhenVisible } from "@/transitions";
 import { Project } from "@/types";
 import { getImageUrl } from "@/utils";
+import Image from "next/image";
 
 type WorkSectionProps = {
   projects: Project[];
@@ -20,7 +21,8 @@ export const WorkItem = ({ project }: WorkItemProps) => {
       <Link href={`/projects/${project.slug}`}>
         <a className="flex-1 absolute inset-0 lg:mx-4">
           <FadeInWhenVisible className="h-full w-full">
-            <img
+            <Image
+            layout="fill"
               className="w-full h-full object-cover rounded overflow-hidden"
               src={getImageUrl(project.images[project.coverIndex])}
               alt={project.title}
@@ -63,7 +65,7 @@ export const WorkSection = ({ projects }: WorkSectionProps) => {
           </div>
         ))}
       </div>
-      <div className="py-14 text-center">
+      <div className="py-11 text-center">
         <Link href="/projects">
           <a className="text-lg  bg-primary p-3 font-light text-gray-600 hover:bg-primaryHover transition duration-200 hover:text-black">
             View All

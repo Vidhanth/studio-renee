@@ -5,6 +5,7 @@ import { DefaultLayout } from "@/components/Layout";
 import { DesignerService } from "@/services";
 import { FadeInWhenVisible } from "@/transitions";
 import { Designer } from "@/types";
+import Image from "next/image";
 
 type DesignerCardProps = {
   designer: Designer;
@@ -50,7 +51,7 @@ const About: NextPage<AboutProps> = ({ designers }) => {
           </div>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-11">
           <h1 className="font-montserrat text-3xl lg:text-[2.5rem]">
             Our Team
           </h1>
@@ -70,7 +71,8 @@ const DesignerCard = ({ designer }: DesignerCardProps) => {
     <div className="grid grid-cols-12 md:gap-12">
       <div className="col-span-12 md:col-span-4 lg:col-span-3 h-full w-full flex items-center">
         <FadeInWhenVisible className="aspect-w-1 aspect-h-1 w-full relative">
-          <img
+          <Image
+            layout="fill"
             src={designer.photo}
             alt={designer.name}
             className="object-cover rounded-full"
@@ -81,9 +83,14 @@ const DesignerCard = ({ designer }: DesignerCardProps) => {
       </div>
 
       <div className="col-span-12 mt-6 md:col-span-8 md:mt-0 lg:col-span-9">
-        <div className="flex items-center space-x-2">
-          <span className="text-gray-800 font-semibold text-2xl">{designer.name} - </span>          
-          <span className="text-lg font-light text-gray-600 tracking-widest"> {designer.role}</span>
+        <div className="flex flex-col md:flex-row md:items-center md:space-x-2">
+          <span className="text-gray-800 font-semibold text-2xl">
+            {designer.name} -{" "}
+          </span>
+          <span className="text-lg font-light text-gray-600 tracking-widest">
+            {" "}
+            {designer.role}
+          </span>
         </div>
 
         <p className="mt-6 text-justify font-light text-gray-800">

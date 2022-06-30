@@ -17,6 +17,7 @@ import { projects } from "@/data";
 import { ProjectService } from "@/services";
 import { IParams, Project } from "@/types";
 import { getImageUrl } from "@/utils";
+import Image from "next/image";
 
 export const getStaticPaths = async () => {
   const paths = projects.map((project) => {
@@ -93,7 +94,8 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
                   onClick={() => setShowingLightbox(true)}
                   className="aspect-w-16 aspect-h-9 relative bg-secondary hover:cursor-zoom-in"
                 >
-                  <img
+                  <Image
+                  layout="fill"
                     src={getImageUrl(image)}
                     className="h-full w-full object-contain"
                     alt={project.title}

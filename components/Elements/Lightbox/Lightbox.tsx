@@ -54,7 +54,8 @@ export const Lightbox = ({
             images.map((image, index) => (
               <SwiperSlide key={index}>
                 <figure className="relative h-screen w-screen">
-                  <img
+                  <NextImage
+                  layout="fill"
                     src={getImageUrl(image)}
                     className="h-full w-full object-contain"
                     alt=""
