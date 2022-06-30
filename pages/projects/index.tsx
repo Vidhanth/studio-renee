@@ -23,7 +23,7 @@ const Projects: NextPage<ProjectsProps> = ({ projects }) => {
     <DefaultLayout>
       <div className="grid px-5 lg:px-5 grid-cols-2 lg:grid-cols-3 gap-5 my-12 mx-auto max-w-5xl">
         {projects.map((project, index) => (
-          <div className="col-span-2 md:col-span-1">
+          <div key={index} className="col-span-2 md:col-span-1">
             <ProjectItem project={project} key={project.id} />
           </div>
         ))}

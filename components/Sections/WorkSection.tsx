@@ -54,7 +54,7 @@ export const WorkSection = ({ projects }: WorkSectionProps) => {
       <div className="text-center text-3xl py-11">Our Work</div>
       <div className="flex flex-col space-y-10 md:flex-row md:space-x-5 md:space-y-0">
         {projects.map((project, index) => (
-          <div className="flex-1">
+          <div className="flex-1" key={index}>
             <WorkItem
               key={project.id}
               project={project}

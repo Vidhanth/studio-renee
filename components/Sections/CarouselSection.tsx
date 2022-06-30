@@ -24,7 +24,7 @@ export const CarouselSection = () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
       {projects[0].images.map((img, index) => (
-        <SwiperSlide>
+        <SwiperSlide key={index}>
           <img
             src={getImageUrl(img)}
             alt={projects[0].title}
