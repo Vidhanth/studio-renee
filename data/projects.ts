@@ -165,7 +165,7 @@ export const projects = [
     what: 'Independent House',
     where: 'Chennai',
     when: '2021',
-    other: 'This project is in partnership with OLS Constructions and Studio Renée.',
+    other: 'This project is in partnership with OLS Constructions.',
     images: [
       {
         path: '/img/projects/anand/1-living-and-dining-area.jpg',
