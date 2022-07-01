@@ -46,8 +46,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: `Cafe Interiors`,
-    slug: `cafe-interiors`,
+    title: `JainPax Cafe Interiors`,
+    slug: `jainpax-cafe-interiors`,
     excerpt: `From an unused structure at a fuel station to a revamped, modern cafe, you'd really want to check this transformation out!`,
     description: `The brief was to redesign the interiors of an existing structure at a petrol station in Rajarajeshwari Nagar, Bengaluru, to accommodate a cafe and departmental store for the customers looking to grab a bite on the go. The design also features graphics that highlight the heritage, and important local and city landmarks. Bold use of pattern tiles against the subtle walls bring character to the space. You'd really want to spend some time in there!`,
     what: 'Cafe',
@@ -91,8 +91,8 @@ export const projects = [
   },
   {
     id: 3,
-    title: `The Farmhouse`,
-    slug: 'the-farmhouse',
+    title: `Bhagyashree Developers' Farmhouse`,
+    slug: 'bhagyashree-farmhouse',
     excerpt: `A proposed design for a farmhouse abode for Bhagyashree Developers on the outskirts of Bengaluru.`,
     description: `Amidst the woods in a farmhouse, this home away from home brings one close to nature. The brief was to plan a single bedroom home that connects with the lush greenery outside The wide open decks and large windows bring the exteriors into the abode. The house has an industrial theme and is planned with a loft bedroom!`,
     what: 'Farmhouse',
@@ -124,8 +124,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: `Retail Store Interior`,
-    slug: `retail-store-interior`,
+    title: `LoveLuck Foods Outlet Interiors`,
+    slug: `loveluck-interior`,
     excerpt: '',
     description: `This interior design was proposed for a retail outlet for Loveluck Foods. The brief was to keep the design budget friendly while making it look simple, elegant and functional at the same time. 
     The space is designed around many elements of the existing site to retain the original charm of the structure and present them in a refreshing way.`,

@@ -16,7 +16,7 @@ type WorkItemProps = {
 
 export const WorkItem = ({ project }: WorkItemProps) => {
   return (
-    <div className="aspect-w-1 aspect-h-1 relative">
+    <div className="aspect-w-1 aspect-h-1 relative" title={project.title}>
       <Link href={`/projects/${project.slug}`}>
         <a className="flex-1 absolute inset-0 lg:mx-4">
           <FadeInWhenVisible className="h-full w-full">
