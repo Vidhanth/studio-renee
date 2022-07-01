@@ -66,7 +66,7 @@ const Contact: NextPage = () => {
 
         <div className="mt-20 h-[40rem]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d794.0298963974951!2d77.5770247657798!3d12.988448476438021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae163d86137e33%3A0xdcefcaba8911733a!2s17%2C%20N%20S%20Iyengar%20St%2C%204th%20Block%2C%20Kumara%20Park%20West%2C%20Seshadripuram%2C%20Bengaluru%2C%20Karnataka%20560020!5e0!3m2!1sen!2sin!4v1648467177672!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.84196751461!2d77.59030941524074!3d12.917876719549044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15bfd1934751%3A0xd421098a499824c6!2sStudio%20Ren%C3%A9e!5e0!3m2!1sen!2sin!4v1632890998681!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}

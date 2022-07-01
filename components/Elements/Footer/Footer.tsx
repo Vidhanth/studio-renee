@@ -29,8 +29,9 @@ export const Footer = () => {
 
                 <p>
                   Studio Renee <br />
-                  17, 3rd Cross, N.S Iyengar Street, Seshadripuram, <br />
-                  Bengaluru, Karnataka 560020
+                  1312, 3rd Floor, 25th Main Rd, 6th Phase<br />
+                  Jayanagara 9th Block, Jayanagar<br/>
+                  Bengaluru, Karnataka 560041 
                 </p>
               </div>
               <div className="x-ml-6 x-flex flex-col items-center justify-center">
