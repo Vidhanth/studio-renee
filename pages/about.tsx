@@ -31,7 +31,7 @@ const About: NextPage<AboutProps> = ({ designers }) => {
         title="About"        
       />
 
-      <main className="mx-auto mt-11 mb-16 max-w-5xl px-4 sm:px-6 lg:px-8">
+      <main className="mx-auto mt-7 md:mt-12 mb-16 max-w-6xl px-7 sm:px-6 lg:px-8">
         <div>
           <h1 className="font-montserrat text-3xl lg:text-[2.5rem]">
             Our Philosophy

@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <nav className="z-10 bg-white drop-shadow-md relative py-4">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 justify-between">
           <div className="flex">
             <div className="flex shrink-0 items-center">

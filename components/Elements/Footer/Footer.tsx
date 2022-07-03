@@ -5,8 +5,8 @@ import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/Icons";
 
 export const Footer = () => {
   return (
-    <div className="bg-primary py-14 px-4 sm:px-6 lg:px-8">
-      <div className="mx-auto max-w-2xl">
+    <div className="bg-primary py-14 px-7 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl">
         <div className="space-y-8">
           <h4 className="font-montserrat text-[2.75rem] uppercase italic">
             Get in touch

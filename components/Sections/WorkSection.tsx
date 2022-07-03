@@ -50,7 +50,7 @@ export const WorkItem = ({ project }: WorkItemProps) => {
 
 export const WorkSection = ({ projects }: WorkSectionProps) => {
   return (
-    <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className="mx-auto max-w-6xl px-7 sm:px-6 lg:px-0">
       <div className="text-center text-3xl py-11">Our Work</div>
       <div className="flex flex-col space-y-10 md:flex-row md:space-x-5 md:space-y-0">
         {projects.map((project, index) => (

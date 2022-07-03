@@ -11,7 +11,7 @@ const Contact: NextPage = () => {
       <Head title="Contact" />
 
       <main>
-        <div className="mx-auto mt-8 max-w-5xl px-4 sm:px-6 lg:mt-16 lg:px-8">
+        <div className="mx-auto mt-7 max-w-6xl px-7 sm:px-6 lg:mt-16 lg:px-8">
           <h1 className="font-montserrat text-3xl lg:text-[2.5rem]">
             We&apos;d love to hear from you!
           </h1>
@@ -25,7 +25,7 @@ const Contact: NextPage = () => {
           >
             <input type="hidden" name="form-name" value="contact-form" />
 
-            <div className="grid grid-cols-12 gap-8">
+            <div className="grid grid-cols-12 gap-y-8">
               {/* Honeypot field to prevent spam. */}
               <p className="hidden">
                 <label>
