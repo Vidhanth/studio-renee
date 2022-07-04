@@ -5,9 +5,9 @@ type HeadProps = {
   description?: string;
 };
 
-export const Head = ({ title = "", description = "Professional Architects and Interior Designers based in Bangalore. We provide aesthetic designs for your dream home and strive for complete customer satisfaction." }: HeadProps = {}) => {
+export const Head = ({ title = "", description = "Commercial and Home Interiors by Professional Architects in Bangalore. Classy and aesthetic designs for your space." }: HeadProps = {}) => {
   const defaultTitle =
-    "Studio Renee - Affordable Interiors and Architecture Solutions Bangalore ";
+    "Commercial, Retail, Office and Home Interior Solution Company";
 
   return (
     <NextHead>
