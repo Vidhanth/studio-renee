@@ -9,7 +9,7 @@ type DefaultLayoutProps = {
 
 export const DefaultLayout = ({ children }: DefaultLayoutProps) => {
   return (
-    <div className="min-h-screen subpixel-antialiased">
+    <div className="min-h-screen overflow-hidden subpixel-antialiased">
       <Navbar />
 
       <FadeIn>{children}</FadeIn>
