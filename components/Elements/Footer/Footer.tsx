@@ -8,7 +8,7 @@ export const Footer = () => {
     <div className="bg-primary py-14 px-7 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <div className="space-y-8">
-          <h4 className="font-montserrat text-[2.75rem] uppercase italic">
+          <h4 className="text-[2.75rem] font-bold uppercase italic">
             Get in touch
           </h4>
 
@@ -65,7 +65,7 @@ export const Footer = () => {
             </div>
 
             <div className="flex items-center mt-6 lg:mt-0">
-              <div className="flex flex-col space-y-3 font-montserrat">
+              <div className="flex flex-col space-y-3">
                 <Link href="/">Home</Link>
                 <Link href="/about">About</Link>
                 <Link href="/projects">Projects</Link>

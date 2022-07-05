@@ -12,7 +12,7 @@ export const ResponsiveNavLink = ({ active = false, children, href }: Responsive
   <Link href={href}>
     <a
       className={clsx(
-        'block py-2 pl-3 pr-4 font-montserrat  leading-5 transition duration-150 ease-in-out focus:outline-none',
+        'block py-2 pl-3 pr-4 leading-5 transition duration-150 ease-in-out focus:outline-none',
         active
           ? 'text-gray-900 focus:outline-none'
           : 'text-gray-400 hover:text-gray-700 focus:text-gray-700 focus:outline-none'

@@ -12,7 +12,7 @@ const Contact: NextPage = () => {
 
       <main>
         <div className="mx-auto mt-7 max-w-6xl px-7 sm:px-6 lg:mt-16 lg:px-8">
-          <h1 className="font-montserrat text-3xl lg:text-[2.5rem]">
+          <h1 className="text-3xl lg:text-[2.5rem] font-medium">
             We&apos;d love to hear from you!
           </h1>
 

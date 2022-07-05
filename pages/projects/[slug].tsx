@@ -64,7 +64,7 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
             </a>
           </Link>
 
-          <h1 className="ml-4 font-montserrat text-3xl lg:text-[2.75rem]">
+          <h1 className="ml-4 text-3xl lg:text-[2.75rem]">
             {project.title}
           </h1>
         </div>
@@ -104,7 +104,7 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
                         <div className="relative w-full pt-12">
                           <div className="absolute inset-0 bg-gradient-to-t from-black opacity-50"></div>
 
-                          <figcaption className="relative px-4 py-3 font-montserrat text-lg font-light text-gray-100 sm:text-xl md:text-2xl lg:text-3xl">
+                          <figcaption className="relative px-4 py-3 text-lg font-light text-gray-100 sm:text-xl md:text-2xl lg:text-3xl">
                             {image.caption}
                           </figcaption>
                         </div>

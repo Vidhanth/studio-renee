@@ -5,10 +5,11 @@
 :root {
   --swiper-navigation-color: white !important;
   --swiper-theme-color: black !important;
+  @apply font-montserrat;
 }
 
 .swiper-pagination {
-  @apply my-3 md:my-6 !relative !bottom-0;
+  @apply !relative !bottom-0 mt-5;
 }
 
 .swiper-pagination-bullet {

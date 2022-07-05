@@ -33,11 +33,11 @@ const About: NextPage<AboutProps> = ({ designers }) => {
 
       <main className="mx-auto mt-7 md:mt-12 mb-16 max-w-6xl px-7 sm:px-6 lg:px-8">
         <div>
-          <h1 className="font-montserrat text-3xl lg:text-[2.5rem]">
+          <h1 className="text-3xl lg:text-[2.5rem] font-medium">
             Our Philosophy
           </h1>
 
-          <div className="mt-4 space-y-4 text-justify font-light text-gray-600 md:mt-10">
+          <div className="mt-4 space-y-4 leading-7 text-justify text-lg font-light text-gray-600 md:mt-10">
             At Renée, we believe in giving life to ideas that are joyful and
             refreshing as a reflection of everything we stand for as designers.
             Each design is carefully curated in perfect harmony by indulging the
@@ -50,7 +50,7 @@ const About: NextPage<AboutProps> = ({ designers }) => {
         </div>
 
         <div className="mt-11">
-          <h1 className="font-montserrat text-3xl lg:text-[2.5rem]">
+          <h1 className="text-3xl lg:text-[2.5rem] font-medium">
             Our Team
           </h1>
           <div className="mt-4 space-y-12 md:mt-10">
@@ -90,7 +90,7 @@ const DesignerCard = ({ designer }: DesignerCardProps) => {
           </span>
         </div>
 
-        <p className="mt-6 text-justify font-light text-gray-800">
+        <p className="mt-6 text-justify font-light leading-7 text-gray-800">
           {designer.about}
         </p>
       </div>

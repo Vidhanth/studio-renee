@@ -4,6 +4,11 @@ export interface IParams extends ParsedUrlQuery {
   slug: string;
 }
 
+export type Service = {
+  title: string;
+  image: string;
+};
+
 export type Image = {
   path: string;
   caption?: string;

@@ -65,7 +65,7 @@ export const Lightbox = ({
                         <div className="relative w-full pt-12">
                           <div className="absolute inset-0 bg-gradient-to-t from-black opacity-50"></div>
 
-                          <figcaption className="relative px-4 py-3 text-center font-montserrat text-3xl font-light text-gray-100">
+                          <figcaption className="relative px-4 py-3 text-center text-3xl font-light text-gray-100">
                             {image.caption}
                           </figcaption>
                         </div>

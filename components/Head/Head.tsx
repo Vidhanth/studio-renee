@@ -7,11 +7,11 @@ type HeadProps = {
 
 export const Head = ({ title = "", description = "Commercial and Home Interiors by Professional Architects in Bangalore. Classy and aesthetic designs for your space." }: HeadProps = {}) => {
   const defaultTitle =
-    "Commercial, Retail, Office and Home Interior Solution Company";
+    "Studio Renée - Commercial, Retail, Office and Home Interiors";
 
   return (
     <NextHead>
-      <title>{title ? `${title} | ${defaultTitle}` : defaultTitle}</title>
+      <title>{title ? `${title} - ${defaultTitle}` : defaultTitle}</title>
       <meta
         name="keywords"
         content="interiors, architecture, home, commercial, design, interior design, commercial designer, commercial interior, home designer, home interior, modern interior design, interior architect, design architects, bangalore, india, interior designer bangalore"
