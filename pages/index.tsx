@@ -9,7 +9,6 @@ import { ProjectService } from "@/services";
 import type { NextPage } from "next";
 import { Head } from "@/components/Head";
 import { DefaultLayout } from "@/components/Layout";
-import { Spacer } from "@/components/Elements";
 
 const Home: NextPage = () => {
   return (
