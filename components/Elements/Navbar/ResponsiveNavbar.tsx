@@ -15,7 +15,7 @@ export const ResponsiveNavbar = ({ isOpen, onClose }: ResponsiveNavbarProps) => 
 
   return (
     <Transition.Root show={isOpen} as={Fragment}>
-      <Dialog as="div" className="fixed inset-0 z-10 overflow-hidden sm:hidden" onClose={onClose}>
+      <Dialog as="div" className="fixed inset-0 z-10 overflow-hidden md:hidden" onClose={onClose}>
         <div className="absolute inset-0 overflow-hidden">
           <Transition.Child
             as={Fragment}
