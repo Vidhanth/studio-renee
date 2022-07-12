@@ -28,10 +28,10 @@ export const Footer = () => {
                 </p>
 
                 <p>
-                  Studio Renee <br />
-                  1312, 3rd Floor, 25th Main Rd, 6th Phase<br />
-                  Jayanagara 9th Block, Jayanagar<br/>
-                  Bengaluru, Karnataka 560041 
+                  Studio Renée <br />
+                  No. 89/2, 2nd floor <br/>
+                  East Anjaneya Temple Road, Basavanagudi <br/>
+                  Bengaluru 560004 
                 </p>
               </div>
               <div className="x-ml-6 x-flex flex-col items-center justify-center">
