@@ -124,6 +124,59 @@ export const projects = [
   },
   {
     id: 4,
+    title: `Altmar - Store Interiors`,
+    slug: `altmar-store-interiors`,
+    excerpt: '',
+    description: `A simple and functional design for a packaged-seafood retail outlet in Bengaluru.`,
+    what: 'Retail Store',
+    where: 'Bengaluru',
+    when: '2022',
+    images: [
+      {
+        path: '/img/projects/altmar/1-site.jpg',
+        caption: 'The Site',
+      },
+      {
+        path: '/img/projects/altmar/2-design.jpg',
+        caption: 'The Design',
+      },
+      {
+        path: '/img/projects/altmar/3-outcome.jpg',
+        caption: 'The Outcome',
+      },
+      {
+        path: '/img/projects/altmar/4-site.jpg',
+        caption: 'The Site',
+      },
+      {
+        path: '/img/projects/altmar/5-design.jpg',
+        caption: 'The Design',
+      },
+      {
+        path: '/img/projects/altmar/6-outcome.jpg',
+        caption: 'The Outcome',
+      },
+      {
+        path: '/img/projects/altmar/7-site.jpg',
+        caption: 'The Site',
+      },
+      {
+        path: '/img/projects/altmar/8-thought.jpg',
+        caption: 'The Thought',
+      },
+      {
+        path: '/img/projects/altmar/9-design.jpg',
+        caption: 'The Design',
+      },
+      {
+        path: '/img/projects/altmar/10-outcome.jpg',
+        caption: 'The Outcome',
+      },
+    ],
+    coverIndex: 2,
+  },
+  {
+    id: 5,
     title: `LoveLuck Foods Outlet Interiors`,
     slug: `loveluck-interior`,
     excerpt: '',
@@ -157,7 +210,7 @@ export const projects = [
     coverIndex: 1,
   },
   {
-    id: 5,
+    id: 6,
     title: `Mr. Anand's Residence`,
     slug: `mr-anands-residence`,
     excerpt: '',
@@ -191,7 +244,7 @@ export const projects = [
     coverIndex: 0,
   },
   {
-    id: 6,
+    id: 7,
     title: `4BHK Residence`,
     slug: `4bhk-residence`,
     excerpt: '',
@@ -223,37 +276,5 @@ export const projects = [
     ],
     coverIndex: 0,
   },
-  {
-    id: 6,
-    title: `Altmar - Store Interiors`,
-    slug: `altmar-store-interiors`,
-    excerpt: '',
-    description: `A simple and functional design for a packaged-seafood retail outlet in Bengaluru.`,
-    what: 'Retail Store',
-    where: 'Bengaluru',
-    when: '2022',
-    images: [
-      {
-        path: '/img/projects/altmar/1.jpg',
-        caption: '',
-      },
-      {
-        path: '/img/projects/altmar/2.jpg',
-        caption: '',
-      },
-      {
-        path: '/img/projects/altmar/3.jpg',
-        caption: '',
-      },
-      {
-        path: '/img/projects/altmar/4.jpg',
-        caption: '',
-      },
-      {
-        path: '/img/projects/altmar/5.jpg',
-        caption: '',
-      },
-    ],
-    coverIndex: 0,
-  },
+  
 ];
