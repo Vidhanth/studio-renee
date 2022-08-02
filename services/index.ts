@@ -9,7 +9,7 @@ export const ProjectService = {
   },
 
   getHomePageProjects(){
-    const homePageProjects = [1,2,6];
+    const homePageProjects = [1,2,4];
     return homePageProjects.map((id)=>projects.find((project) => project.id == id)) as Project[];
   },
 
