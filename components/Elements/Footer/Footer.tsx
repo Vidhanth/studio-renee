@@ -18,11 +18,11 @@ export const Footer = () => {
                 <p className="font-bold">
                   Ph:
                   <a href="tel:9901897130">+91 9901897130</a> /{" "}
-                  <a href="tel:9448381292">+91 8747844664</a>​
+                  <a href="tel:8747844664">+91 8747844664</a>​
                 </p>
 
                 <p className="font-bold">
-                  <a href="mailto:info@tranquilspaces.co.in">
+                  <a href="mailto:studioreneedesigns@gmail.com">
                     studioreneedesigns@gmail.com
                   </a>
                 </p>
