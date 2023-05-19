@@ -26,7 +26,9 @@ export const WorkItem = ({ project }: WorkItemProps) => {
               alt={project.title}
             />
 
-            <div className="absolute inset-0 bg-white opacity-0 rounded overflow-hidden transition duration-300 hover:opacity-25"></div>
+            <div className="absolute inset-0 text-opacity-0 font-bold text-lg hover:text-opacity-100 text-white bg-black bg-opacity-0 rounded overflow-hidden transition duration-300 hover:bg-opacity-30 grid place-content-center">
+              <span className="drop-shadow">{project.title}</span>
+            </div>
           </FadeInWhenVisible>
         </a>
       </Link>
