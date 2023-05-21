@@ -17,8 +17,7 @@ export const Footer = () => {
               <div className="space-y-6 font-light text-gray-800">
                 <p className="font-bold">
                   Ph:
-                  <a href="tel:9901897130">+91 9901897130</a> /{" "}
-                  <a href="tel:8747844664">+91 8747844664</a>​
+                  <a href="tel:9901897130"> +91 9901897130</a>
                 </p>
 
                 <p className="font-bold">
@@ -29,9 +28,9 @@ export const Footer = () => {
 
                 <p>
                   Studio Renée <br />
-                  No. 89/2, 2nd floor <br/>
-                  East Anjaneya Temple Road, Basavanagudi <br/>
-                  Bengaluru 560004 
+                  No. 89/2, 2nd floor <br />
+                  East Anjaneya Temple Road, Basavanagudi <br />
+                  Bengaluru 560004
                 </p>
               </div>
               <div className="x-ml-6 x-flex flex-col items-center justify-center">
