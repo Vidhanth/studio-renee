@@ -410,7 +410,7 @@ export const projects = [
     excerpt: "",
     description: `We approached the design of this office space, in the bustling city of Bangalore, with a keen focus on incorporating the brand's vibrant colors seamlessly. Our team, with their expertise and meticulous attention to detail, skillfully curated a space that strikes a delicate balance between simplicity and functionality, ensuring a clutter-free and efficient workspace. To maximize the sense of openness and prevent any feelings of confinement, we strategically employed glass frontage for the cabin and conference rooms, allowing abundant natural light to permeate the space. The result is a professionally designed office environment that exudes a modern aesthetic and promotes a productive atmosphere.`,
     what: "Office",
-    where: "Chennai",
+    where: "Bangalore",
     when: "2023",
     images: [
       {
