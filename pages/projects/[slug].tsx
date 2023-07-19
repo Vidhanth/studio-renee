@@ -56,7 +56,7 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
         title={project.title}        
       />
 
-      <main className="mx-auto my-12 max-w-5xl px-4 sm:px-6 lg:px-8">
+      <main className="mx-auto my-12 max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
           <Link href="/projects">
             <a>
@@ -90,7 +90,7 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
               <SwiperSlide key={index}>
                 <figure
                   onClick={() => setShowingLightbox(true)}
-                  className="aspect-w-16 aspect-h-9 relative bg-secondary hover:cursor-zoom-in"
+                  className="aspect-w-16 aspect-h-9 relative bg-transparent hover:cursor-zoom-in"
                 >
                   <img
                     src={getImageUrl(image)}
