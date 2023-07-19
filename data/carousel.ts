@@ -1,5 +1,8 @@
 export const mainCarouselImages = [
   {
+    image: "/img/carousel/3.jpeg",
+  },
+  {
     project: 1,
     image: 1,
   },
@@ -20,8 +23,5 @@ export const mainCarouselImages = [
   },
   {
     image: "/img/carousel/2.jpeg",
-  },
-  {
-    image: "/img/carousel/3.jpeg",
   },
 ];

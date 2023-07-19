@@ -25,7 +25,7 @@ export type Project = {
   where?: string;
   when?: string;
   other?: string;
-  coverIndex: number;
+  coverIndex: number | string;
 };
 
 export type Designer = {

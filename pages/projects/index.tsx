@@ -45,7 +45,11 @@ const ProjectItem = ({ project }: { project: Project }) => {
           <div className="aspect-w-1 aspect-h-1">
             <img
               className="h-full w-full object-cover rounded"
-              src={getImageUrl(project.images[project.coverIndex])}
+              src={
+                typeof project.coverIndex != "string"
+                  ? getImageUrl(project.images[project.coverIndex])
+                  : project.coverIndex
+              }
               alt={project.title}
             />
             <div className="absolute inset-0 bg-white opacity-0 rounded overflow-hidden transition duration-300 hover:opacity-25"></div>

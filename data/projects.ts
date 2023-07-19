@@ -408,9 +408,9 @@ export const projects = [
     title: `Unhive Ventures Office Interiors`,
     slug: `unhive`,
     excerpt: "",
-    description: `We approached the design of this office space, in the bustling city of Bangalore, with a keen focus on incorporating the brand's vibrant colors seamlessly. Our team, with their expertise and meticulous attention to detail, skillfully curated a space that strikes a delicate balance between simplicity and functionality, ensuring a clutter-free and efficient workspace. To maximize the sense of openness and prevent any feelings of confinement, we strategically employed glass frontage for the cabin and conference rooms, allowing abundant natural light to permeate the space. The result is a professionally designed office environment that exudes a modern aesthetic and promotes a productive atmosphere.`,
+    description: `We approached the design of this office space, in the bustling city of Bengaluru, with a keen focus on incorporating the brand's vibrant colors seamlessly. Our team, with their expertise and meticulous attention to detail, skillfully curated a space that strikes a delicate balance between simplicity and functionality, ensuring a clutter-free and efficient workspace. To maximize the sense of openness and prevent any feelings of confinement, we strategically employed glass frontage for the cabin and conference rooms, allowing abundant natural light to permeate the space. The result is a professionally designed office environment that exudes a modern aesthetic and promotes a productive atmosphere.`,
     what: "Office",
-    where: "Bangalore",
+    where: "Bengaluru",
     when: "2023",
     images: [
       {
@@ -433,19 +433,7 @@ export const projects = [
         path: "/img/projects/unhive/5.jpeg",
         caption: "",
       },
-      {
-        path: "/img/projects/unhive/6.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/unhive/7.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/unhive/8.jpeg",
-        caption: "",
-      },
     ],
-    coverIndex: 2,
+    coverIndex: '/img/projects/unhive/cover.jpeg'
   },
 ].sort((p1, p2) => (p1.id < p2.id ? -1 : 1));
