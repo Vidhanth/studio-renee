@@ -22,7 +22,11 @@ export const WorkItem = ({ project }: WorkItemProps) => {
           <FadeInWhenVisible className="h-full w-full">
             <img
               className="w-full h-full object-cover rounded overflow-hidden"
-              src={getImageUrl(project.images[project.coverIndex])}
+              src={
+                typeof project.coverIndex !== "string"
+                  ? getImageUrl(project.images[project.coverIndex as number])
+                  : project.coverIndex
+              }
               alt={project.title}
             />
 

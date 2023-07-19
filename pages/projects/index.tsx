@@ -46,8 +46,8 @@ const ProjectItem = ({ project }: { project: Project }) => {
             <img
               className="h-full w-full object-cover rounded"
               src={
-                typeof project.coverIndex != "string"
-                  ? getImageUrl(project.images[project.coverIndex])
+                typeof project.coverIndex !== "string"
+                  ? getImageUrl(project.images[(project.coverIndex as number)])
                   : project.coverIndex
               }
               alt={project.title}
