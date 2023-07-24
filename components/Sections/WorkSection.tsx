@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
+import { Button } from "@/components/Elements/Button";
 import { FadeInWhenVisible } from "@/transitions";
 import { Project } from "@/types";
 import { getImageUrl } from "@/utils";
@@ -57,9 +58,9 @@ export const WorkSection = ({ projects }: WorkSectionProps) => {
       </div>
       <div className="py-11 text-center">
         <Link href="/projects">
-          <a className="text-lg  bg-primary p-3 text-black hover:bg-primaryHover transition duration-200 hover:text-black">
+          <Button variant="neutral" type="submit">
             View All
-          </a>
+          </Button>
         </Link>
       </div>
     </section>

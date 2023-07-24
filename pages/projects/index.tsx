@@ -31,7 +31,9 @@ const Projects: NextPage<ProjectsProps> = ({ projects }) => {
         ))}
       </div>
       <div className="flex justify-center ">
-        <div className="mb-12 text-lg bg-primary p-3">More Coming Soon!</div>
+        <div className="mb-12  p-3 inline-flex items-center border px-12 py-2 shadow-sm transition focus:outline-none text-black border-black ">
+          More Coming Soon!
+        </div>
       </div>
     </DefaultLayout>
   );
@@ -47,7 +49,7 @@ const ProjectItem = ({ project }: { project: Project }) => {
               className="h-full w-full object-cover rounded"
               src={
                 typeof project.coverIndex !== "string"
-                  ? getImageUrl(project.images[(project.coverIndex as number)])
+                  ? getImageUrl(project.images[project.coverIndex as number])
                   : project.coverIndex
               }
               alt={project.title}

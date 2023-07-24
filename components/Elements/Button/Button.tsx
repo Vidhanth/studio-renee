@@ -4,7 +4,7 @@ import React from 'react';
 const variants = {
   primary: 'text-primary border-primary hover:bg-primary hover:text-white',
   inverse: 'text-white border-white hover:bg-white hover:text-primary',
-  neutral: 'text-black border-black hover:bg-primary'
+  neutral: 'text-black border-black hover:bg-primary hover:text-white'
 };
 
 type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {

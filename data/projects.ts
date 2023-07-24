@@ -90,7 +90,7 @@ export const projects = [
     coverIndex: 5,
   },
   {
-    id: 9,
+    id: 12,
     title: `Bhagyashree Developers' Farmhouse`,
     slug: "bhagyashree-farmhouse",
     excerpt: `A proposed design for a farmhouse abode for Bhagyashree Developers on the outskirts of Bengaluru.`,
@@ -123,7 +123,7 @@ export const projects = [
     coverIndex: 4,
   },
   {
-    id: 6,
+    id: 8,
     title: `Altmar - Store Interiors`,
     slug: `altmar-store-interiors`,
     excerpt: "",
@@ -244,7 +244,7 @@ export const projects = [
     coverIndex: 0,
   },
   {
-    id: 8,
+    id: 11,
     title: `4BHK Residence`,
     slug: `4bhk-residence`,
     excerpt: "",
@@ -367,7 +367,7 @@ export const projects = [
     coverIndex: 3,
   },
   {
-    id: 5,
+    id: 9,
     title: `Mrs. Payal's Home Renovation`,
     slug: `payalreno`,
     excerpt: "",
@@ -404,7 +404,7 @@ export const projects = [
     coverIndex: 2,
   },
   {
-    id: 11,
+    id: 6,
     title: `Unhive Ventures Office Interiors`,
     slug: `unhive`,
     excerpt: "",
@@ -434,6 +434,59 @@ export const projects = [
         caption: "",
       },
     ],
-    coverIndex: '/img/projects/unhive/cover.jpeg'
+    coverIndex: "/img/projects/unhive/cover.jpeg",
+  },
+  {
+    id: 5,
+    title: `Maffei Kitchen`,
+    slug: `maffei`,
+    excerpt: "",
+    description: `A Moroccan themed fine dine restaurant in the city of Bangalore. The brief was to design a space that was unlike any restaurant in the city and a space that reflects the Moroccan cuisine and style using the brand colors provided. The result was a luxurious restaurant decorated with arches, jali patterns, beautiful patterned tiles and all the love from us at Studio Renee!`,
+    what: "Restaurant",
+    where: "Bengaluru",
+    when: "2022",
+    images: [
+      {
+        path: "/img/projects/maffei/1.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/2.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/3.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/4.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/5.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/6.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/7.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/8.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/9.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/maffei/10.jpeg",
+        caption: "",
+      },
+    ],
+    coverIndex: "/img/projects/maffei/cover.jpeg",
   },
 ].sort((p1, p2) => (p1.id < p2.id ? -1 : 1));

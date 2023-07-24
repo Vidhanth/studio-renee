@@ -5,7 +5,7 @@ import { FacebookIcon, InstagramIcon, LinkedinIcon } from "@/components/Icons";
 
 export const Footer = () => {
   return (
-    <div className="bg-primary py-14 px-7 sm:px-6 lg:px-8">
+    <div className="bg-primary py-14 px-7 text-white sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <div className="space-y-8">
           <h4 className="text-[2.75rem] font-bold uppercase italic">
@@ -14,7 +14,7 @@ export const Footer = () => {
 
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
             <div className="x-flex">
-              <div className="space-y-6 font-light text-gray-800">
+              <div className="space-y-6 font-light text-gray-100">
                 <p className="font-bold">
                   Ph:
                   <a href="tel:9901897130"> +91 9901897130</a>
