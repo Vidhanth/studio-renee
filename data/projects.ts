@@ -436,57 +436,57 @@ export const projects = [
     ],
     coverIndex: "/img/projects/unhive/cover.jpeg",
   },
-  {
-    id: 5,
-    title: `Maffei Kitchen`,
-    slug: `maffei`,
-    excerpt: "",
-    description: `A Moroccan themed fine dine restaurant in the city of Bangalore. The brief was to design a space that was unlike any restaurant in the city and a space that reflects the Moroccan cuisine and style using the brand colors provided. The result was a luxurious restaurant decorated with arches, jali patterns, beautiful patterned tiles and all the love from us at Studio Renee!`,
-    what: "Restaurant",
-    where: "Bengaluru",
-    when: "2022",
-    images: [
-      {
-        path: "/img/projects/maffei/1.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/2.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/3.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/4.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/5.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/6.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/7.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/8.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/9.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/maffei/10.jpeg",
-        caption: "",
-      },
-    ],
-    coverIndex: "/img/projects/maffei/cover.jpeg",
-  },
+  // {
+  //   id: 5,
+  //   title: `Maffei Kitchen`,
+  //   slug: `maffei`,
+  //   excerpt: "",
+  //   description: `A Moroccan themed fine dine restaurant in the city of Bangalore. The brief was to design a space that was unlike any restaurant in the city and a space that reflects the Moroccan cuisine and style using the brand colors provided. The result was a luxurious restaurant decorated with arches, jali patterns, beautiful patterned tiles and all the love from us at Studio Renee!`,
+  //   what: "Restaurant",
+  //   where: "Bengaluru",
+  //   when: "2022",
+  //   images: [
+  //     {
+  //       path: "/img/projects/maffei/1.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/2.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/3.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/4.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/5.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/6.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/7.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/8.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/9.jpeg",
+  //       caption: "",
+  //     },
+  //     {
+  //       path: "/img/projects/maffei/10.jpeg",
+  //       caption: "",
+  //     },
+  //   ],
+  //   coverIndex: "/img/projects/maffei/cover.jpeg",
+  // },
 ].sort((p1, p2) => (p1.id < p2.id ? -1 : 1));
