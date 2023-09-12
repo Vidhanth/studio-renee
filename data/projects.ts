@@ -90,7 +90,7 @@ export const projects = [
     coverIndex: 5,
   },
   {
-    id: 12,
+    id: 13,
     title: `Bhagyashree Developers' Farmhouse`,
     slug: "bhagyashree-farmhouse",
     excerpt: `A proposed design for a farmhouse abode for Bhagyashree Developers on the outskirts of Bengaluru.`,
@@ -123,7 +123,7 @@ export const projects = [
     coverIndex: 4,
   },
   {
-    id: 8,
+    id: 9,
     title: `Altmar - Store Interiors`,
     slug: `altmar-store-interiors`,
     excerpt: "",
@@ -176,7 +176,7 @@ export const projects = [
     coverIndex: 2,
   },
   {
-    id: 7,
+    id: 8,
     title: `LoveLuck Foods Outlet Interiors`,
     slug: `loveluck-interior`,
     excerpt: "",
@@ -210,7 +210,7 @@ export const projects = [
     coverIndex: 1,
   },
   {
-    id: 10,
+    id: 11,
     title: `Mr. Anand's Residence`,
     slug: `mr-anands-residence`,
     excerpt: "",
@@ -244,7 +244,7 @@ export const projects = [
     coverIndex: 0,
   },
   {
-    id: 11,
+    id: 12,
     title: `4BHK Residence`,
     slug: `4bhk-residence`,
     excerpt: "",
@@ -367,7 +367,7 @@ export const projects = [
     coverIndex: 3,
   },
   {
-    id: 9,
+    id: 10,
     title: `Mrs. Payal's Home Renovation`,
     slug: `payalreno`,
     excerpt: "",
@@ -436,57 +436,38 @@ export const projects = [
     ],
     coverIndex: "/img/projects/unhive/cover.jpeg",
   },
-  // {
-  //   id: 5,
-  //   title: `Maffei Kitchen`,
-  //   slug: `maffei`,
-  //   excerpt: "",
-  //   description: `A Moroccan themed fine dine restaurant in the city of Bangalore. The brief was to design a space that was unlike any restaurant in the city and a space that reflects the Moroccan cuisine and style using the brand colors provided. The result was a luxurious restaurant decorated with arches, jali patterns, beautiful patterned tiles and all the love from us at Studio Renee!`,
-  //   what: "Restaurant",
-  //   where: "Bengaluru",
-  //   when: "2022",
-  //   images: [
-  //     {
-  //       path: "/img/projects/maffei/1.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/2.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/3.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/4.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/5.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/6.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/7.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/8.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/9.jpeg",
-  //       caption: "",
-  //     },
-  //     {
-  //       path: "/img/projects/maffei/10.jpeg",
-  //       caption: "",
-  //     },
-  //   ],
-  //   coverIndex: "/img/projects/maffei/cover.jpeg",
-  // },
+  {
+    id: 7,
+    title: `1BHK Residence Renovation`,
+    slug: `1bhk`,
+    excerpt:
+      "Transformed this old 1BHK house into a modern and functional, minimal home!",
+    description: `We did a budget makeover of a small 360 sqft 1 BHK in Bangalore! There were two very important aspects to work on in this project -\n1. Revamp the look and feel of the home keeping in mind minimal aesthetics.\n2. BUDGET! - the most important one! This home was to be given for rental purposes, hence it had to be done in a minimal budget.\n\nThe result: a cute and cozy space that you can call home! 🧡`,
+    what: "Residence Renovation",
+    where: "Bengaluru",
+    when: "2023",
+    images: [
+      {
+        path: "/img/projects/1bhk/1.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/1bhk/2.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/1bhk/3.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/1bhk/4.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/1bhk/5.jpeg",
+        caption: "",
+      },
+    ],
+    coverIndex: "/img/projects/1bhk/cover.jpeg",
+  },
 ].sort((p1, p2) => (p1.id < p2.id ? -1 : 1));
