@@ -141,7 +141,7 @@ const ProjectInformation: NextPage<ProjectInformationProps> = ({ project }) => {
         </div>
 
         {project.description && (
-          <p className="mt-8 text-justify font-light">{project.description}</p>
+          <p className="mt-8 text-justify font-light display-linebreak">{project.description}</p>
         )}
 
         {project.other && (

@@ -20,3 +20,7 @@
 .swiper-button-next::after {
   @apply text-2xl drop-shadow-strong lg:text-4xl !important;
 }
+
+.display-linebreak {
+  white-space: pre-line;
+}
