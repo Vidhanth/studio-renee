@@ -470,4 +470,74 @@ export const projects = [
     ],
     coverIndex: "/img/projects/1bhk/cover.jpeg",
   },
+  {
+    id: 14,
+    title: `Moh - Restaurant and Cafe`,
+    slug: `moh-cafe`,
+    excerpt: "",
+    description: `Designed a new cafe in the city of Bengaluru! Presenting Cafe Moh!\nElevating dining to new heights! The double-height space creates a stunning atrium effect, bathed in natural light. Our aim was to create a design that was attractive and at the same time, was easy on the pocket!`,
+    what: "Restaurant",
+    where: "Bengaluru",
+    when: "2023",
+    images: [
+      {
+        path: "/img/projects/moh/1.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/moh/2.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/moh/3.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/moh/4.jpeg",
+        caption: "",
+      },
+    ],
+    coverIndex: "/img/projects/moh/cover.jpeg",
+  },
+  {
+    id: 15,
+    title: `Blooming Lounge Salon`,
+    slug: `blooming-lounge`,
+    excerpt: "",
+    description: `Step into our salon, a realm of refined elegance and luxury! The design features a dark color scheme with opulent brass accents, creating a timeless and sophisticated atmosphere, giving you a truly luxurious experience! Welcome to the Blooming Lounge Salon!`,
+    what: "Salon",
+    where: "Bengaluru",
+    when: "2023",
+    images: [
+      {
+        path: "/img/projects/blooming/1.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/blooming/2.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/blooming/3.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/blooming/4.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/blooming/5.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/blooming/6.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/blooming/7.jpeg",
+        caption: "",
+      },
+    ],
+    coverIndex: 0,
+  },
 ].sort((p1, p2) => (p1.id < p2.id ? -1 : 1));
