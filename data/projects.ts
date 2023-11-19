@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 1,
+    id: 9,
     title: `Mr. Aman's Residence`,
     slug: "mr-amans-residence",
     excerpt: `A classy, modern home designed to reflect the client's lifestyle.`,
@@ -45,7 +45,7 @@ export const projects = [
     coverIndex: 3,
   },
   {
-    id: 4,
+    id: 3,
     title: `JainPax Cafe Interiors`,
     slug: `jainpax-cafe-interiors`,
     excerpt: `From an unused structure at a fuel station to a revamped, modern cafe, you'd really want to check this transformation out!`,
@@ -90,7 +90,7 @@ export const projects = [
     coverIndex: 5,
   },
   {
-    id: 13,
+    id: 14,
     title: `Bhagyashree Developers' Farmhouse`,
     slug: "bhagyashree-farmhouse",
     excerpt: `A proposed design for a farmhouse abode for Bhagyashree Developers on the outskirts of Bengaluru.`,
@@ -123,7 +123,7 @@ export const projects = [
     coverIndex: 4,
   },
   {
-    id: 9,
+    id: 6,
     title: `Altmar - Store Interiors`,
     slug: `altmar-store-interiors`,
     excerpt: "",
@@ -176,7 +176,7 @@ export const projects = [
     coverIndex: 2,
   },
   {
-    id: 8,
+    id: 5,
     title: `LoveLuck Foods Outlet Interiors`,
     slug: `loveluck-interior`,
     excerpt: "",
@@ -210,7 +210,7 @@ export const projects = [
     coverIndex: 1,
   },
   {
-    id: 11,
+    id: 13,
     title: `Mr. Anand's Residence`,
     slug: `mr-anands-residence`,
     excerpt: "",
@@ -277,7 +277,7 @@ export const projects = [
     coverIndex: 0,
   },
   {
-    id: 2,
+    id: 8,
     title: `Ms. Neha's Villa`,
     slug: `neha-villa`,
     excerpt: "",
@@ -322,7 +322,7 @@ export const projects = [
     coverIndex: 1,
   },
   {
-    id: 3,
+    id: 7,
     title: `Mrs. Megha's Residence`,
     slug: `meghares`,
     excerpt: "",
@@ -404,7 +404,7 @@ export const projects = [
     coverIndex: 2,
   },
   {
-    id: 6,
+    id: 4,
     title: `Unhive Ventures Office Interiors`,
     slug: `unhive`,
     excerpt: "",
@@ -437,7 +437,7 @@ export const projects = [
     coverIndex: "/img/projects/unhive/cover.jpeg",
   },
   {
-    id: 7,
+    id: 11,
     title: `1BHK Residence Renovation`,
     slug: `1bhk`,
     excerpt:
@@ -471,7 +471,7 @@ export const projects = [
     coverIndex: "/img/projects/1bhk/cover.jpeg",
   },
   {
-    id: 14,
+    id: 2,
     title: `Moh - Restaurant and Cafe`,
     slug: `moh-cafe`,
     excerpt: "",
@@ -500,7 +500,7 @@ export const projects = [
     coverIndex: "/img/projects/moh/cover.jpeg",
   },
   {
-    id: 15,
+    id: 1,
     title: `Blooming Lounge Salon`,
     slug: `blooming-lounge`,
     excerpt: "",
@@ -525,19 +525,7 @@ export const projects = [
         path: "/img/projects/blooming/4.jpeg",
         caption: "",
       },
-      {
-        path: "/img/projects/blooming/5.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/blooming/6.jpeg",
-        caption: "",
-      },
-      {
-        path: "/img/projects/blooming/7.jpeg",
-        caption: "",
-      },
     ],
-    coverIndex: 0,
+    coverIndex: "/img/projects/blooming/cover.jpeg",
   },
 ].sort((p1, p2) => (p1.id < p2.id ? -1 : 1));

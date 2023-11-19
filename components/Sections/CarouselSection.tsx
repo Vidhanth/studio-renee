@@ -28,7 +28,9 @@ export const CarouselSection = () => {
         <SwiperSlide key={index}>
           {img.project ? (
             <img
-              src={getImageUrl(projects[img.project-1].images[img.image - 1]!!)}
+              src={getImageUrl(
+                projects[img.project - 1].images[img.image - 1]!!
+              )}
               alt={projects[0].title}
               className="md:h-screen w-full object-cover"
             />
