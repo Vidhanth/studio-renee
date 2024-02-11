@@ -1,5 +1,37 @@
 export const projects = [
   {
+    id: 15,
+    title: `Netmet Solutions Office`,
+    slug: `netmet`,
+    excerpt: "",
+    description: `Presenting a bright and colorful office space for a startup in Bengaluru, India! 
+    This 1700sqft office houses a lovely reception area with a waiting lounge, 2 modest conference rooms, 3 MD cabins and an open layout workspace area for the staff. 
+    The idea was to use the brand identity into the design. The result is this lovely space which our client loves!
+    `,
+    what: "Office Interiors",
+    where: "Bengaluru",
+    when: "2024",
+    images: [
+      {
+        path: "/img/projects/netmet/1.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/netmet/2.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/netmet/3.jpeg",
+        caption: "",
+      },
+      {
+        path: "/img/projects/netmet/4.jpeg",
+        caption: "",
+      },
+    ],
+    coverIndex: "/img/projects/netmet/cover.jpeg",
+  },
+  {
     id: 9,
     title: `Mr. Aman's Residence`,
     slug: "mr-amans-residence",
