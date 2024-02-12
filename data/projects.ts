@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 15,
+    id: 5,
     title: `Netmet Solutions Office`,
     slug: `netmet`,
     excerpt: "",
@@ -208,7 +208,7 @@ export const projects = [
     coverIndex: 2,
   },
   {
-    id: 5,
+    id: 15,
     title: `LoveLuck Foods Outlet Interiors`,
     slug: `loveluck-interior`,
     excerpt: "",
